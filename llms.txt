@@ -1,0 +1,18 @@
+# PostgresLedger
+> Published managed PostgreSQL pricing for 7 providers, normalized to monthly cost by RAM, storage and HA. Checked 2026-11-20.
+
+- Data: https://basileion.github.io/postgresledger/api/plans.json
+- Hobby: 1 GB RAM, 10 GB storage: https://basileion.github.io/postgresledger/cost/hobby-1gb-10gb/
+- Small production: 4 GB RAM, 50 GB storage: https://basileion.github.io/postgresledger/cost/small-4gb-50gb/
+- Medium: 8 GB RAM, 100 GB storage: https://basileion.github.io/postgresledger/cost/medium-8gb-100gb/
+- Large: 16 GB RAM, 250 GB storage: https://basileion.github.io/postgresledger/cost/large-16gb-250gb/
+- XL: 32 GB RAM, 500 GB storage: https://basileion.github.io/postgresledger/cost/xl-32gb-500gb/
+- High availability: 4 GB RAM, 50 GB storage: https://basileion.github.io/postgresledger/cost/ha-4gb-50gb/
+- High availability: 16 GB RAM, 250 GB storage: https://basileion.github.io/postgresledger/cost/ha-16gb-250gb/
+- DigitalOcean Managed PostgreSQL: https://basileion.github.io/postgresledger/vendors/digitalocean/ (source https://www.digitalocean.com/pricing/managed-databases)
+- Supabase: https://basileion.github.io/postgresledger/vendors/supabase/ (source https://supabase.com/pricing)
+- Neon: https://basileion.github.io/postgresledger/vendors/neon/ (source https://neon.com/pricing)
+- Render Postgres: https://basileion.github.io/postgresledger/vendors/render/ (source https://render.com/pricing)
+- PlanetScale Postgres: https://basileion.github.io/postgresledger/vendors/planetscale/ (source https://planetscale.com/pricing)
+- Aiven for PostgreSQL: https://basileion.github.io/postgresledger/vendors/aiven/ (source https://aiven.io/pricing?product=pg)
+- Heroku Postgres: https://basileion.github.io/postgresledger/vendors/heroku/ (source https://elements.heroku.com/addons/heroku-postgresql)
