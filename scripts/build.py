@@ -47,7 +47,7 @@ def page(path, title, desc, body, noindex=False):
 <main class="w">{body}</main>
 <footer><div class="w"><p><b>PostgresLedger</b> tracks published managed PostgreSQL prices for {len(V)} providers. Every price links to the vendor page it came from. Last checked {CHECKED}. Not affiliated with any provider; no paid placements. Verify on the vendor's page before you buy.</p>
 <p><a href="/about/">Methodology</a> · <a href="/api/plans.json">JSON data</a> · <a href="/changes/feed.xml">RSS</a> · <a href="mailto:basileion.ops@gmail.com?subject=PostgresLedger%20correction">Report a wrong price</a></p>
-<p>More pricing trackers: {more}</p></div></footer></body></html>"""
+<p>More pricing trackers: {more}</p><p>Free tools: <a href="https://basileion.github.io/ai-crawlers/">AI Crawler Rules</a> (AI bot robots.txt checker) · <a href="https://basileion.github.io/statement2csv/">Statement2CSV</a> (bank statement PDF to CSV) · <a href="https://basileion.github.io/a11ycheck/">A11yCheck</a> (WCAG 2.2 checker)</p></div></footer></body></html>"""
     doc = doc.replace('href="/', 'href="' + BASE + '/')
     out = D + path + ('index.html' if path.endswith('/') else '')
     os.makedirs(os.path.dirname(out), exist_ok=True); open(out, 'w').write(doc)
